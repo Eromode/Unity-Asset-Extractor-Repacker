@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# macOS / Linux temp files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Output folders
+*_extracted/
+output/
+repacked/
+logs/
+
+# IDE files
+.vscode/
+.idea/
+
+# Test / sample bundles (optional)
+# *.bundle
+# *.unity3d
+# *.assets
