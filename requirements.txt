@@ -1,4 +1,0 @@
-UnityPy
-Pillow
-tqdm
-lz4
