@@ -10,7 +10,7 @@ from PIL import Image
 
 # ------------------- Utility Functions -------------------
 def sanitize_filename(name: str) -> str:
-    return re.sub(r'[^\w-. ]', '', name).strip()
+    return re.sub(r'[^\w.\- ]', '', name).strip()
 
 def get_object_name(data, obj_type: str, path_id: int) -> str:
     for attr in ("name", "m_Name", "m_ClassName"):
