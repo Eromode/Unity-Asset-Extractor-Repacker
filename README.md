@@ -107,7 +107,9 @@ Log written to extract.log
 - **Repacking** is intentionally limited to `Texture2D`, `TextAsset`, and `Mesh` for safety.
 - `.meta.json` files are generated alongside each extracted asset for reference and integrity checks.
 - This is a **single-file tool** for easy sharing — no packaging required.
-
+- 🔍 For more advanced asset editing or complete unpacking of Unity projects, you may also want to try:
+  - [AssetRipper](https://github.com/AssetRipper/AssetRipper) — Full Unity project export from asset bundles.
+  - [UABEA (Unity Asset Bundle Extractor Avalonia)](https://github.com/nesrak1/UABEANext) — GUI-uabe for newer versions of unity.
 ---
 
 ## 📜 License
