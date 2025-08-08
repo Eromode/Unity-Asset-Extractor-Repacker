@@ -1,0 +1,29 @@
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Tool output
+*_extracted/
+modified_*.bundle
+modifications.json
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# IDE configs
+.vscode/
+.idea/
